@@ -30,11 +30,17 @@ $ go get fyne.io/fyne/v2
 >$ go mod tidy
 >```
 
-**4) Создать базу данных `continuum` в MySQL**
+**4) Скачать исходный код и перейти в директорию с проектом**
+```
+$ git clone https://github.com/OkDenAl/kontinuumTestTask.git
+$ cd kontinuumTestTask
+```
 
-**5) Заполнить ее, скопировав содержимое файла** `.sql`
+**5) Создать базу данных `continuum` в MySQL**
 
-**6) Запустить программу**
+**6) Заполнить ее, скопировав содержимое файла** `.sql`
+
+**7) Запустить программу**
 ```
 $ go run ./cmd/app/main.go
 ```
