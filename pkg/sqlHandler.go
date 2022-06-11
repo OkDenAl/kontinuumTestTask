@@ -241,7 +241,6 @@ func SqlHandler(Args []string) []string {
 	}
 
 	db, err := sql.Open("mysql", "root:root@tcp(127.0.0.1:3306)/continuum")
-	fmt.Println(db)
 	if err != nil {
 		return ([]string{"Error: Не удалось подключиться к базе данных"})
 	}
