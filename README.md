@@ -38,7 +38,7 @@ $ cd kontinuumTestTask
 
 **5) Создать базу данных `continuum` в MySQL**
 
-**6) Заполнить ее, скопировав содержимое файла** `.sql`
+**6) Заполнить ее, скопировав содержимое [файла](https://github.com/OkDenAl/kontinuumTestTask/blob/main/sql/continuum.sql)**
 
 **7) Запустить программу**
 ```
